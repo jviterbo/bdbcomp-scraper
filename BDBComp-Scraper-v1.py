@@ -146,7 +146,7 @@ Input data
 """
 abbrev = input("Digite o acrônimo do evento: ")
 year = input("Digite o ano da edição do evento: ")
-codlink = input ("Digite o código da página com a lista de arquivos: ")
+codlink = input ("Digite o ID da página do evento no BDBComp: ")
 
 """ 
 Creating directory
