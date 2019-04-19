@@ -23,26 +23,23 @@ What does it do?
        
 The information available at the event proceedings pages is not complete. The 
 site contains only:
-    - The original title of the paper (generally in Portuguese);
-    - The abstract of the paper (generally in Portuguese);
-    - The authors' names;
-    - The numbers of the initial and final pages (NOT ALWAYS).
+    a) The original title of the paper (generally in Portuguese);
+    b) The abstract of the paper (generally in Portuguese);
+    c) The authors' names;
+    d) The numbers of the initial and final pages (BUT NOT ALWAYS).
     
 For some missing information, it was possible to complete:
-    - The paper's language: it was determined using "GoogleTrans" API;
-    - The title in English: title was translated using "GoogleTrans" API;
-    - The abstract in English: abstract was translated using "GoogleTrans" API;
-    - The number of pages: when not informed, it is determined with PyPDF2.
+    a) The paper's language: it was determined using "GoogleTrans" API;
+    b) The title in English: title was translated using "GoogleTrans" API;
+    c) The abstract in English: abstract was translated using "GoogleTrans" API;
+    d) The number of pages: when not informed, it is determined with PyPDF2.
     
 Besides, as BDBComp provides no information about sections, author's countries,
-and author's e-mails, we assumed as default:  
-    - "ART" for section
-    - "BR" for author's country
-    - "nomail@mail.com" for author's e-mail
+and author's e-mails, we assumed as default: "ART" for section, "BR" for author's 
+country and "nomail@mail.com" for author's e-mail
     
-IMPORTANT: Some useful information is still absent, such as:
-    - Keywords
-    - Author's affiliations
+IMPORTANT: Some useful information is still absent, such as Keywords and Author's 
+affiliations.
     
 It is recommmended that after running the program, users should reviewed files
  "Artigos.csv" and "Autores.csv" to check if any correction is needed and to 
