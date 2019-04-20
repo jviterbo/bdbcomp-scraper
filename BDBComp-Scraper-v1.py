@@ -292,7 +292,7 @@ for tag in tags:
                         absen = abst
                         titen = titulo
                     abstractenlist.append(absen)
-                    titleenlist.append(titulo)
+                    titleenlist.append(titen)
 #                    print("From "+ lang + ": " + absen+'\n')
                 i = i + 1
         k = k + 1
