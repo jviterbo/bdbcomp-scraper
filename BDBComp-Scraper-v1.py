@@ -286,7 +286,7 @@ for tag in tags:
                         print("Translating paper "+str(k)+" title and abstract...")
                         abstrans = translator.translate(abst)
                         absen = abstrans.text
-                        tittrans = translator.translate(titulo)
+                        tittrans = translator.translate(titulo, src='pt', dest='en')
                         titen = tittrans.text
                     else:
                         absen = abst
