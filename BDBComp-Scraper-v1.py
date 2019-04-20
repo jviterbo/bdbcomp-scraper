@@ -169,7 +169,7 @@ res = BeautifulSoup(html,"html5lib")
 divs = res.findAll('div', class_= 'titulo')
 for div in divs:
     tituloconf = div.text
-    print("\nExtracting metadata for the proccedings of: "+tituloconf)
+    print("\nExtracting metadata for the proceedings of: "+tituloconf)
  
 translator = Translator()
 
