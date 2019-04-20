@@ -279,11 +279,11 @@ for tag in tags:
                     if lang != langtit:
                         lang = langtit
                     langlist.append(lang)
-                    print("Translating paper "+str(k)+" title and abstract...")
                     """ 
                     Translating title and abstract 
                     """
                     if lang != 'en':
+                        print("Translating paper "+str(k)+" title and abstract...")
                         abstrans = translator.translate(abst)
                         absen = abstrans.text
                         tittrans = translator.translate(titulo)
