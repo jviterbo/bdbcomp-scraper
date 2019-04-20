@@ -184,6 +184,7 @@ for item in itens:
         if flag == 1:
             pages = str(child) 
             pages = pages.replace('<i>.','')
+            pages = pages.replace('<i>','')
             pages = pages.replace('</i>','')
             pages = pages.replace('<p>','')
             pages = pages.replace('</p>','')
