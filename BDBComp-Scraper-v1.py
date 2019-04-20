@@ -271,7 +271,13 @@ for tag in tags:
                     abst = abst.lstrip('\r\n')
                     abstractlist.append(abst)
 #                    print(abst+'\n')
-                    lang = translator.detect(abst).lang
+                    langtit = translator.detect(titulo).lang
+                    if abst != "":
+                        lang = translator.detect(abst).lang
+                    else:
+                        lang = langtit
+                    if lang != langtit:
+                        lang = langtit
                     langlist.append(lang)
                     print("Translating paper "+str(k)+" title and abstract...")
                     """ 
