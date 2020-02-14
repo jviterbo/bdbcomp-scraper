@@ -41,6 +41,6 @@ country and "nomail@mail.com" for author's e-mail
 IMPORTANT: Some useful information is still absent, such as Keywords and Author's 
 affiliations.
     
-It is recommmended that after running the program, users should reviewed files
+It is recommmended that after running the program, users review the files
  "Artigos.csv" and "Autores.csv" to check if any correction is needed and to 
-try to provide missing information.
+provide missing information.
